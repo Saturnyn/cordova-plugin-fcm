@@ -1,3 +1,13 @@
+#### History
+
+The base of the project is the https://github.com/fechanique/cordova-plugin-fcm plugin which provides notifications based on Firebase Cloud Messaging.
+
+It was forked from from https://github.com/ifiske/cordova-plugin-fcm which added the requestPermissionOnIOS() method that allows us to control the moment where the permission popup appears on iOS.
+
+The only modification on this repository is that requestPermissionOnIOS() now accepts a success and error callback so that we can now when and how the user answered the permission popup.
+
+
+
 # Google Firebase Cloud Messaging Cordova Push Plugin
 > Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 
