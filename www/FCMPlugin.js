@@ -4,8 +4,8 @@ function FCMPlugin() {
 	console.log("FCMPlugin.js: is created");
 }
 
-FCMPlugin.prototype.requestPermissionOnIOS = function() {
-	exec(function() {}, function() {}, "FCMPlugin", 'requestPermissionOnIOS', []);
+FCMPlugin.prototype.requestPermissionOnIOS = function(success, error) {
+	exec(success, error, "FCMPlugin", 'requestPermissionOnIOS', []);
 }
 
 // SUBSCRIBE TO TOPIC //
